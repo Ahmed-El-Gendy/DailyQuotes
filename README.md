@@ -20,9 +20,19 @@ A clean, modern Android app built with Kotlin and Jetpack Compose. It includes a
 - New quote action and share shortcut
 
 ## Screenshots
-![Splash screen](Screenshot/screen1.jpg)
-![Home screen](Screenshot/screen2.jpg)
-![Quote interaction](Screenshot/screen3.jpg)
+<table>
+	<tr>
+		<td align="center">
+			<img src="Screenshot/screen1.jpg" alt="Splash screen" width="220" />
+		</td>
+		<td align="center">
+			<img src="Screenshot/screen2.jpg" alt="Home screen" width="220" />
+		</td>
+		<td align="center">
+			<img src="Screenshot/screen3.jpg" alt="Quote interaction" width="220" />
+		</td>
+	</tr>
+</table>
 
 ## Design System
 - Primary color: #2563eb
