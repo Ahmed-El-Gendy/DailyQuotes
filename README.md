@@ -19,6 +19,11 @@ A clean, modern Android app built with Kotlin and Jetpack Compose. It includes a
 - Glassy surface, soft border, and subtle gradient background
 - New quote action and share shortcut
 
+## Screenshots
+![Splash screen](Screenshot/screen1.jpg)
+![Home screen](Screenshot/screen2.jpg)
+![Quote interaction](Screenshot/screen3.jpg)
+
 ## Design System
 - Primary color: #2563eb
 - Background color: #f8fafc
@@ -62,6 +67,17 @@ app/
 ./gradlew assembleDebug
 ```
 
+## Release APK
+```bash
+./gradlew assembleRelease
+```
+
+Output location:
+- app/build/outputs/apk/release/
+- release/app-release-unsigned.apk
+
+Note: Release builds are unsigned unless you add a signing configuration. For a distributable APK, configure a keystore in the `release` build type.
+
 ## Run
 Option 1: Android Studio
 - Select a device or emulator
@@ -71,6 +87,11 @@ Option 2: CLI
 ```bash
 ./gradlew installDebug
 ```
+
+## GitHub Release (Manual)
+1. Build the release APK using the command above.
+2. Create a new GitHub Release from the repository page.
+3. Upload the APK from `app/build/outputs/apk/release/`.
 
 ## Testing
 ```bash
